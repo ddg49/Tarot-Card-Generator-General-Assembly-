@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+
+body {
+    background: rgb(255,171,0);
+    background: linear-gradient(90deg, rgba(255,171,0,1) 13%, rgba(255,237,23,1) 57%, rgba(255,191,12,1) 72%, rgba(255,225,0,1) 100%); 
+}
+
+.col-md-12:first-of-type {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(255, 21, 0);
+    font-size: 50px;
+}
+
+.addACard {
+    width: 323px;
+    height: 550px;
+    background-color: black;
+    color: white;
+    padding-top: 230px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: 'Londrina Solid', cursive;
+    font-size: 50px;
+}
+
+.cardholder {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+.row:last-of-type {
+    padding-top: 10px;
+    text-align: center;
+}
